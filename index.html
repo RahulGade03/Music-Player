@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="shortcut icon" href="icons/SpotifyFavIcon.ico" type="image/x-icon">
+</head>
+
+<body class="roboto bg-black">
+    <div class="container flex">
+        <div class="left">
+            <div class="home bg-grey flex flex-column rounded m-1 p-1">
+                <div class="logo">
+                    <img src="icons/logo.svg" alt="logo" class="invert logo-img">
+                </div>
+
+                <ul class="flex flex-column">
+                    <li class="flex"><img src="icons/home.svg" alt="home" class="invert"> Home</li>
+                    <li class="flex"><img src="icons/search.svg" alt="search" class="invert"> Search</li>
+                </ul>
+            </div>
+
+            <div class="library rounded m-1 p-1 bg-grey flex flex-column">
+                <div class="heading flex item-center">
+                    <img src="icons/library.svg" alt="" class="invert library-img">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+
+                <ul class="songList flex flex-column"></ul>
+            </div>
+
+            <footer class="bg-grey rounded m-1 p-1">
+                <div class="flex flex-column">
+                    <div class="flex">
+                        <a href="https://www.spotify.com/in-en/legal/" class="clr-grey">
+                            <span data-encore-id="type" class="clr-grey">Legal</span>
+                        </a>
+
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/" class="clr-grey">
+                            <span data-encore-id="type" class="clr-grey">Safety &amp; Privacy Center</span>
+                        </a>
+
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" class="clr-grey">
+                            <span data-encore-id="type" class="clr-grey">Privacy Policy</span>
+                        </a>
+
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/" class="clr-grey">
+                            <span data-encore-id="type" class="clr-grey">Cookies</span>
+                        </a>
+
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" class="clr-grey">
+                            <span data-encore-id="type" class="clr-grey">About Ads</span>
+                        </a>
+
+                        <a href="https://www.spotify.com/in-en/accessibility/" class="clr-grey">
+                            <span data-encore-id="type" class="clr-grey">Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+
+        <div class="right flex m-1 flex-column justify-center item-center">
+            <header class="flex item-center">
+                <div class="navigation flex header-gap item-center">
+                    <img src="icons/hamburger.svg" alt="" class="invert hamburger">
+                    <img src="icons/20652543591556280998.svg" alt="left" class="arrow">
+                    <img src="icons/20942180181556280998.svg" alt="right" class="arrow">
+                </div>
+
+                <div class="buttons flex header-gap">
+                    <button class="Sign-Up header-button">Sign Up</button>
+                    <button class="Log-In header-button">Log In</button>
+                </div>
+            </header>
+
+            <main class="bg-grey flex item-center">
+                <div class="card flex flex-column justify-center item-center">
+                    <a href="/SPOTIFY/songs/Millionare.mp3"><img src="icons/playBUTTON.svg" alt="" class="playButton"></a>
+                    <img src="images/GloryImg.jpeg" alt="" class="cardImg">
+                    <h3>Glory</h3>
+                    <p>Yo Yo Honey Singh</p>
+                </div>
+
+                <div class="card flex flex-column justify-center item-center">
+                    <a href="/SPOTIFY/songs/Hamari Adhuri Kahani.mp3"><img src="icons/playBUTTON.svg" alt="" class="playButton"></a>
+                    <img src="images/AdhuriImg.jpeg" alt="" class="cardImg">
+                    <h3>Hamari Adhuri Kahani (Original Motion pictures Sound Track)</h3>
+                    <p>Jeet Ganguli, Mithoon, Ami Mishra</p>
+                </div>
+            </main>
+
+            <div class="controls bg-grey flex flex-column item-center">
+                <div class="info flex item-center">
+                    <div class="songPlayName"></div>
+                    
+                    <div class="seekButtons flex item-center">
+                        <img src="icons/previous.svg" alt="previous" id="previous">
+                        <img src="icons/play2.svg" alt="play/pause" class="invert" id="play">
+                        <img src="icons/next.svg" alt="next" id="next">
+                    </div>
+                    
+                    <div class="duration"></div>
+                </div>
+
+                <div class="seekBar">
+                    <div id="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

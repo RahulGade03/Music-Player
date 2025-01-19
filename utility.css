@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.jsutify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.flex-column{
+    flex-direction: column;
+}
+.bg-grey{
+    background-color: #353535;
+    color: white;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 10px;
+}
+.p-1{
+    padding: 14px;
+}
+h2{
+    font-weight: 700;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.header-gap{
+    gap: 10px;
+}
+.clr-grey{
+    color: grey;
+    text-decoration: none;
+}
+.header-button{
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    opacity: 0.7;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Target webkit-based browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 10px;            /* Width of the scrollbar */
+    height: 12px;           /* Height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #353535;    /* Light grey background for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #353535;       /* Grey color for the thumb */
+    border-radius: 6px;     /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black;       /* Darker grey on hover */
+}
+
+/* Optional: Customize the scrollbar corner (where vertical and horizontal scrollbars meet) */
+::-webkit-scrollbar-corner {
+    background: #353535;    /* Match the track background */
+}
