@@ -1,5 +1,5 @@
 // Construct the URL to the 'songs' folder
-const songsFolderURL = '/songs/';
+const songsFolderURL = 'songs/';
 
 let currentSong = new Audio();
 
