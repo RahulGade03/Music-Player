@@ -33,11 +33,6 @@ function formatTime(seconds) {
     return `${formattedMinutes}:${formattedSeconds}`;
   }
   
-  // Example usage
-  console.log(formatTime(3.101509));  // Output: "00:03"
-  console.log(formatTime(125));       // Output: "02:05"
-  console.log(formatTime(45));        // Output: "00:45"
-  
 
 async function addSongs (songs) {
     for (let song of songs) {
