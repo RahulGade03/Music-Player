@@ -4,22 +4,9 @@ const songsFolderURL = 'songs/';
 let currentSong = new Audio();
 
 async function getSongs() {
-    const response = await fetch(songsFolderURL);
-    const text = await response.text();
-    let div = document.createElement('div');
-    div.innerHTML = text;
-    let links = div.getElementsByTagName('a');
-    let songs = [];
-    for (let link of links) {
-        if (link.href.endsWith('.mp3')) {
-            songs.push(link.href);
-        }
-    }
-    return songs;
-
-    // const response = await fetch('songs.json');
-    // const songs = await response.json();
-    // return songs.map(song => `songs/${song}`);
+    const response = await fetch('songs.json');
+    const songs = await response.json();
+    return songs.map(song => `songs/${song}`);
 }
 
 function formatTime(seconds) {
