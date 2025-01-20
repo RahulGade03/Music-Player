@@ -109,5 +109,10 @@ document.querySelector('.hamburger').addEventListener('click',() => {
     let left = document.querySelector('.left');
     left.style.left = '0px';
     left.style.width = '100vw';
-    left.style.zIndex = '1';
 });
+
+document.querySelector('.close').addEventListener('click', () => {
+    let left = document.querySelector('.left');
+    left.style.left = '-250px';
+    left.style.width = '25vw';
+})

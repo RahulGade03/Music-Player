@@ -51,7 +51,11 @@ h2{
 }
 .header-button{
     padding: 15px 25px;
+    display: flex;
+    align-items: center;
     border-radius: 30px;
+    max-height: 90%;
+    text-wrap: nowrap;
     border: none;
     font-size: medium;
     font-weight: 600;
