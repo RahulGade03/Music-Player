@@ -1,5 +1,5 @@
 // Construct the URL to the 'songs' folder
-const songsFolderURL = 'public/songs/';
+const songsFolderURL = 'songs/';
 
 let currentSong = new Audio();
 
@@ -17,9 +17,9 @@ async function getSongs() {
     // }
     // return songs;
 
-    const response = await fetch('public/songs.json');
+    const response = await fetch('songs.json');
     const songs = await response.json();
-    return songs.map(song => `public/songs/${song}`);
+    return songs.map(song => `songs/${song}`);
 }
 
 function formatTime(seconds) {
