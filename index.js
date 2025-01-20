@@ -3,7 +3,7 @@ const baseURL = window.location.href;
 // console.log("Base URL:", baseURL);
 
 // Construct the URL to the 'songs' folder
-const songsFolderURL = new URL('./songs/', baseURL).href;
+const songsFolderURL = '/songs/';
 
 let currentSong = new Audio();
 
