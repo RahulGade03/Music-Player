@@ -170,7 +170,7 @@ main{
 .cardImg{
     height: 60%;
     width: 90%;
-    object-fit:fill;
+    object-fit: cover;
     border-radius: 10px;
     pointer-events: none;
 }
@@ -193,6 +193,7 @@ main{
     right: 10%;
     top: 50%;
     opacity: 0;
+    z-index: 10;
     transition: all 0.2s ease-in-out;
 }
 
@@ -237,6 +238,8 @@ main{
     height: 70%;
     width: auto;
 }
+
+
 
 .seekBar{
     background-color: white;
@@ -322,8 +325,4 @@ main{
         height: 50px;
         width: auto;
     }
-}
-
-@media screen and (max-width: ) {
-    
 }
