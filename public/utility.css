@@ -24,7 +24,7 @@
     flex-direction: column;
 }
 .bg-grey{
-    background-color: #353535;
+    background-color: rgb(32, 32, 32);;
     color: white;
 }
 .rounded{

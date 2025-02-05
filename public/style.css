@@ -40,7 +40,7 @@ header{
     padding: 10px;
     justify-content: space-between;
     border-radius: 10px;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(32, 32, 32);
 }
 
 .arrow{
@@ -164,8 +164,9 @@ main{
     padding: 5px;
     height: 260px;
     width: 200px;
-    background-color: rgb(69, 68, 68);
+    background-color: rgb(40, 40, 40);
     border-radius: 10px;
+    transition: all 1s ease;
 }
 
 .cardImg{
@@ -201,6 +202,9 @@ main{
 .card:hover .playButton{
     opacity: 1;
     top: 40%;
+}
+.card:hover{
+    background-color: rgb(50, 50, 50);;
 }
 
 .controls{
