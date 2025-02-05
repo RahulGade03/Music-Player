@@ -47,9 +47,8 @@ async function addSongs(songs) {
         </div>`
 
         document.querySelector('.songList').appendChild(li);
-
-        await addPlayEvent();
     }
+    await addPlayEvent();
 }
 
 const playMusic = (track) => {
