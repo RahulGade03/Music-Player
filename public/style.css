@@ -284,6 +284,10 @@ main{
     object-fit: cover;
 }
 
+li, .card, #previous, #play, #next, .seekBar{
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 850px) {
     .left{
         position: absolute;
