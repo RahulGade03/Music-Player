@@ -150,6 +150,10 @@ ul > li {
     display: block;
 }
 
+.logo-img{
+    height: 40px;
+}
+
 main{
     width: 100%;
     height: var(--mainHeight);
